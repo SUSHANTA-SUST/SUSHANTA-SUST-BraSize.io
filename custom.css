@@ -1,0 +1,54 @@
+#outermainBox{
+    border: 3px solid black;
+    width:45em;
+    height:auto;
+    align-items: center;
+    padding: 0em 1em 1em 1em;
+    margin-left:auto;
+    margin-right:auto;
+}
+#maintitle{
+    text-align: center;
+    color:#444;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#outerBox{
+    display:flex;
+    border:2px solid black;
+    padding:1em;
+    width:40em;
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+    background:url(./background.jpg);
+    align-items: center;
+}
+
+#imgBox{
+    border:1px solid #444;
+    display: flex;
+    justify-content: left;
+}
+
+#formbox{
+    margin-left: 2em;
+    border:1px solid black;
+    padding:1em;
+    top:10px;
+}
+
+#calculate{
+    border:1px solid brown;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding:5px;
+}
+
+#resultText{
+    margin:0px;
+    padding:0px;
+}
